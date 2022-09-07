@@ -1,0 +1,43 @@
+:root{
+    --cor-menu:#c5c5b2;
+}
+html{
+    background: url(img/fundo.png);
+    width: 900px;
+}
+
+.menu{
+    background-color: var(--cor-menu);
+    padding: 15px;
+}
+
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sobre__Ana{
+    color: #828271;
+}
+.menu__itens{
+    
+    display: flex;  
+    list-style-type: none;
+}
+.menu__itens-link{
+    color: #4b566a;
+    text-decoration: none;
+    text-transform: uppercase; 
+    margin-right: 1em;   
+}
+.sobre{
+    background-color: white;
+    padding: 0.8em;
+}
+.rodape{
+    text-align: center;
+}
+.menu__itens-link:hover{
+    background-color: #4b566a;
+    color: white;
+}
